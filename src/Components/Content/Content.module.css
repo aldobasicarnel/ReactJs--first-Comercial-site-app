@@ -1,0 +1,9 @@
+.content {
+  text-align: center;
+}
+.content h1 {
+  color: #ff1010;
+}
+.content p {
+  font-family: "Noto Sans JP", sans-serif;
+}

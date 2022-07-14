@@ -1,0 +1,31 @@
+.input {
+  background-color: aliceblue;
+  border: none;
+  width: 13rem;
+  height: 1.5rem;
+  border-radius: 5px;
+}
+.login {
+  text-align: right;
+  margin-top: 15rem;
+  margin-right: 5rem;
+}
+.login p {
+  color: #d5d6d4;
+  margin-right: 5rem;
+}
+
+.login a {
+  color: #d5d6d4;
+  font-size: 1.25rem;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.login a:hover,
+.login a:active,
+.login a.active {
+  color: #9a9a9a;
+  padding-bottom: 0.25rem;
+  border-bottom: 4px solid #333;
+}

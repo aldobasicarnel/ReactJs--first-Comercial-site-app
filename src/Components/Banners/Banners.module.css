@@ -1,0 +1,32 @@
+.text {
+  float: left;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.photo {
+  float: right;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.photo img {
+  height: 300px;
+  width: 100%;
+}
+
+.wrapper {
+  box-shadow: 1rem grey;
+}
+
+.text h2 {
+  text-align: left;
+  margin-left: 1rem;
+  font-size: 1.25rem;
+}
+.text p {
+  color: #ff1f1f;
+  font-size: 0.75rem;
+  text-align: left;
+  margin-left: 1rem;
+}
