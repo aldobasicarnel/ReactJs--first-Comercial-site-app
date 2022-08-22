@@ -20,7 +20,6 @@ const CardBanner = () => {
             title={banner.title}
             text={banner.text}
             p={banner.p}
-            img={banner.img}
           />
         ))}
       </div>

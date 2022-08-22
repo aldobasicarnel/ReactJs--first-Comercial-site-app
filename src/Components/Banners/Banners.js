@@ -10,7 +10,7 @@ const Banners = (props) => {
         <p>{props.p}</p>
       </div>
       <div className={classes.photo}>
-        <img src={img5} alt="photo" />
+        <img src={img5} alt="ducati" />
       </div>
     </div>
   );
