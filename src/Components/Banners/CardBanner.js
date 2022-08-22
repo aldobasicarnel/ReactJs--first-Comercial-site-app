@@ -1,5 +1,5 @@
 import Banners from "./Banners";
-import img5 from "./images5.jpg";
+
 import classes from "./CardBanner.module.css";
 
 const dummy_banners = [
@@ -8,7 +8,6 @@ const dummy_banners = [
     title: "Moto GP",
     text: "Italian GP: The Ducati Lenovo Team ready to hit the track.",
     p: "Everything ready for the highly antiipated round at the Mugello Circuit",
-    img: <img src={img5} alt="motorcyle" />,
   },
 ];
 const CardBanner = () => {
