@@ -18,6 +18,9 @@ const Cart = (props) => {
   const saveDataHandler = () => {
     console.log(`To pay: ${totalAmount}`);
   };
+  const removeItemHandler = (id) => {
+    cartCtx.removeItem(id);
+  };
   const addItemHandler = (item) => {
     cartCtx.addItem({ ...item, amount: 1 });
   };
@@ -29,6 +32,7 @@ const Cart = (props) => {
           name={item.name}
           amount={item.amount}
           price={item.price}
+          onRemove={removeItemHandler.bind(null, item.id)}
           onAdd={addItemHandler.bind(null, item)}
         />
       ))}
